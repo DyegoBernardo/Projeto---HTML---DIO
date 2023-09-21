@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Blog sobre HTML</title>
+    </head>
+    <body>
+        <h1>Blog sobre HTML</h1>
+        <hr>
+        <h2 id="inicio">Índice</h2>
+        <ul>
+            <li><a href="#estrutura">Estrutura básica de um documento HTML</a></li>
+            <li><a href="#tags">Falando sobre Tags HTML</a></li>
+            <li><a href="#atributos">Falando sobre os Atributos das tags</a></li>
+            <li><a href="#texto">Falando sobre as Tags de texto html</a></li>
+        </ul>
+        
+        <h2 id="estrutura">Estrutura básica de um documento HTML</h2>
+        <p>O <strong>HTML</strong> (Hypertext Markup Language) é a linguagem de marcação usada para criar páginas da web.A estrutura básica de um documento<strong><i> HTML</i></strong>  consiste em uma série de elementos aninhados que definem a estrutura e o conteúdo da página. Aqui está uma estrutura HTML simples:</p>
+        <img width="700" src="struture.png" alt="Estrutura básica do HTML">
+        <h3>Aqui está uma breve explicação dos elementos básicos:</h3>
+            <ul>
+                <li><strong><.!DOCTYPE html>:</strong> Declara o tipo de documento como HTML5.</li>
+                <li><strong><.html>:</strong> Elemento raiz que engloba todo o conteúdo da página.</li>
+                <li><strong><.head>:</strong> Contém metadados e informações sobre a página, como o título exibido na aba do navegador.</li>
+                <li><strong><.meta charset="UTF-8">:</strong> Define a codificação de caracteres como UTF-8 para suportar caracteres especiais.</li>
+                <li><strong><.title>:</strong> Define o título da página.</li>
+                <li><strong><.body>:</strong> Contém o conteúdo visível da página, como texto, imagens, links, etc.</li>
+                <li><strong><.h1>:</strong> Cabeçalho de nível 1, usado para títulos principais.</li>
+                <li><strong><.p>:</strong> Parágrafo de texto.</li>
+                <li><strong><.a href="URL">:</strong> Cria um link para outra página.</li>
+                <li><strong><.img src="URL" alt="Texto Alternativo">:</strong> Exibe uma imagem com texto alternativo para acessibilidade.</li>
+             </ul>
+         <p>Esta é apenas uma estrutura básica. As páginas <strong>HTML</strong> podem conter uma variedade de elementos para criar layouts complexos, incorporar mídia, criar formulários interativos e muito mais. A estrutura básica fornecida acima é um ponto de partida simples para a criação de páginas da web.</p>
+         <small><a href="#inicio">(Voltar)</a></small>
+
+        <h2 id="tags">Falando sobre Tags HTML</h2>
+        <p>As tags HTML são elementos fundamentais da linguagem de marcação HTML (Hypertext Markup Language). Elas são usadas para estruturar e formatar o conteúdo de uma página da web, permitindo que os navegadores interpretem e exibam o conteúdo de maneira apropriada. As tags HTML são cercadas por colchetes angulares `< >` e geralmente vêm em pares, uma tag de abertura e uma tag de fechamento, embora algumas tags possam ser autocontidas.</p>
+        <h3>Aqui estão alguns exemplos de tags HTML comuns:</h3>
+        <ol>
+                <li><strong>Tag de Parágrafo:</strong> -`<.p>`: Define um parágrafo de texto. <strong>- Exemplo:</strong> `<.p>Isso é um parágrafo de texto.<./p>`.</li>
+                <li><strong>Tag de Título:</strong> - `<.h1>`, `<.h2>`, `<.h3>`, `<.h4>`, `<.h5>`, `<.h6>`: Define cabeçalhos de diferentes níveis de importância. <strong>- Exemplo:</strong> `<.h1>Título Principal<./h1>`.</li>
+                <li><strong>Tag de Link:</strong>  - `<.a>`: Cria links para outras páginas ou recursos.<strong>- Exemplo:</strong> `<.a href="https://www.exemplo.com">Link para Exemplo<./a>`.</li>
+                <li><strong>Tag de Imagem:</strong>- `<.img>`: Insere imagens na página.<strong>- Exemplo: </strong>`<.img src="imagem.jpg" alt="Descrição da Imagem">`</li>
+                <li> <strong>Tag de Lista:</strong>- `<.ul>`: Define uma lista não ordenada. - `<.ol>`: Define uma lista ordenada. - `<.li>`: Define um item de lista. <strong>- Exemplo:</strong>```html <.ul> <.li>Item 1</li> <.li>Item 2</li> <./ul>```.</li>        
+        </ol>
+        <p>Estes são apenas alguns exemplos das muitas <i>tags HTML</i> disponíveis. Cada tag tem um propósito específico e contribui para a estrutura e o layout de uma página da web. As tags HTML são a base para a criação de conteúdo e páginas interativas na web.</p>
+        <small><a href="#inicio">(Voltar)</a></small>
+
+        <h2 id="atributos">Falando sobre os Atributos das tags</h2>
+        <p>Os atributos HTML são informações adicionais que podem ser incluídas em tags HTML para fornecer detalhes, configurações ou metadados sobre um elemento específico. Os atributos são sempre especificados no formato chave-valor, onde a chave (nome do atributo) é seguida por um sinal de igual (=) e um valor entre aspas. Os atributos são usados para personalizar e controlar o comportamento de elementos HTML. </p>
+        <h3>Aqui estão alguns exemplos de atributos HTML comuns:</h3>
+            <ol>
+                <li><strong>**Atributo `id`**:</strong>   - O atributo `id` é usado para dar um identificador único a um elemento HTML em uma página. Isso é útil para seleção de elementos usando JavaScript ou para vincular elementos a estilos específicos com CSS.    <strong>- Exemplo: </strong>`<.div id="meu-elemento-unico"></div>`.</li>
+                <li><strong>**Atributo `class`**:</strong>- O atributo `class` é usado para atribuir uma ou mais classes a um elemento HTML. Classes são usadas para aplicar estilos CSS a elementos específicos e podem ser reutilizadas em vários elementos.    <strong>- Exemplo:</strong> `<.p class="destaque">Este parágrafo tem uma classe de destaque.<./p>`</li>
+                <li><strong>**Atributo `src`**:</strong> - O atributo `src` é usado em elementos como `<.img>`, `<.script>`, e `<.iframe>` para especificar a fonte (URL) do recurso a ser incorporado ou exibido. <strong> Exemplo:</strong>- `<.img src="imagem.jpg" alt="Descrição da Imagem">`.</li>
+                <li><strong>**Atributo `href`**:</strong> - O atributo `href` é usado em elementos como `<.a>` para definir o destino do link. Ele especifica a URL para a qual o usuário será redirecionado ao clicar no link.<strong>- Exemplo:</strong> `<.a href="https://www.exemplo.com">Link para Exemplo<./a>`.</li>
+                <li><strong>**Atributo `alt`**:</strong>   - O atributo `alt` é usado em elementos `<.img>` para fornecer uma descrição alternativa da imagem. Isso é importante para acessibilidade, pois é lido por leitores de tela.<strong>- Exemplo:</strong> `<.img src="imagem.jpg" alt="Descrição da Imagem">`.</li>
+                <li><strong>**Atributo `width` e `height`**:</strong>   - Os atributos `width` e `height` são usados em elementos como `<.img>` para especificar a largura e a altura da imagem em pixels. <strong>- Exemplo:</strong> `<.img src="imagem.jpg" width="300" height="200">`.</li>
+                <li><strong>**Atributo `type`**:</strong>   - O atributo `type` é usado em elementos como `<.input>` para definir o tipo de entrada que o campo deve aceitar (por exemplo, texto, senha, número, etc.). <strong>- Exemplo:</strong> `<.input type="text" name="nome" placeholder="Seu Nome">`.</li>
+            </ol>
+            <p>Estes são apenas alguns exemplos de atributos HTML. A linguagem HTML possui muitos outros atributos que podem ser usados para ajustar e personalizar elementos em uma página da web. Cada elemento HTML pode ter um conjunto específico de atributos que se aplicam a ele.</p>
+            <small><a href="#inicio">(Voltar)</a></small>
+            
+            <h1 id="texto">Falando sobre as Tags de texto html</h1>
+            <p>No HTML, você pode usar várias tags para estruturar e formatar texto em uma página da web.</p>
+            <h2>Aqui estão algumas das tags de texto HTML mais comuns:</h2>
+            <ol>
+                <li><strong>**`<.p>` (Parágrafo)**:</strong> Usado para criar parágrafos de texto.<strong>- Exemplo:</strong> <.p>Este é um parágrafo de texto.<./p></li>
+                <li><strong>**`<.h1>`, `<.h2>`, `<.h3>`, `<.h4>`, `<.h5>`, `<.h6>` (Cabeçalhos)**:</strong> Usados para criar cabeçalhos de diferentes níveis de importância, onde `<.h1>` é o mais importante e `<.h6>` é o menos importante. <strong>- Exemplo:</strong><.h1>Título Principal<./h1> e <.h2>Subtítulo<./h2></li>
+                <li><strong>`(Texto em Negrito)**:</strong>Define texto que deve ser exibido em negrito.<strong>- Exemplo:</strong>  <strong><.p>Este é um texto <.strong>em negrito<./strong>.<./p></strong></li>
+                <li><strong>**`<.em>` (Texto Em Itálico)**:</strong> Define texto que deve ser exibido em itálico.<strong>- Exemplo:</strong><.p>Este é um texto <em><.em>em itálico<./em></em>.<./p></li>
+                <li><strong>**`<.u>` (Texto Sublinhado)**:</strong> Define texto que deve ser sublinhado. <strong>- Exemplo:</strong> <u><.p>Este é um texto <.u>sublinhado<./u>.<./p></u></li>
+                <li><strong>**`<.blockquote>` (Bloco de Citação)**:</strong> Usado para destacar citações longas em um bloco separado. <strong>- Exemplo:</strong> <blockquote><.blockquote><.p>Esta é uma citação longa que deve ser destacada em um bloco separado.<./p><./blockquote></blockquote></li>               
+            </ol>
+            <p>Essas são algumas das tags de texto mais comuns em HTML, mas existem muitas outras para formatação, ênfase e marcação de texto de várias maneiras. O HTML oferece uma variedade de opções para ajudar a formatar o conteúdo de uma página da web de acordo com as necessidades do desenvolvedor.</p>
+            <small><a href="#inicio">(Voltar)</a></small>
+
+    </body>
+</html>
